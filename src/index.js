@@ -7,9 +7,11 @@ const loginContainer = (
 
     <div className="login-container">
 
-        <h1 className="login-title"> Moon-Lite </h1>
+        <h1 className="login-title"> Moon-Lite</h1>
 
         <h2 className="sub-title"> Optimized Sleep Tracking </h2>
+
+        <h3 className="login-prompt"> Please Login To Continue </h3> 
 
         <label for="username" className="username"> Username </label>
 
@@ -20,6 +22,9 @@ const loginContainer = (
         <input type="text" id="pswdText" className="textfield2" placeholder="Input Password Here" />
 
         <button id="btn" className="sign-in-container sign-in-text">Sign In </button>
+
+        <a id="passwordReset" className="password-reset" href="#"> Forgot Your Password? Click Here </a>
+
     </div>
 );
 

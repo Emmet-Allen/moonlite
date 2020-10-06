@@ -31,11 +31,11 @@ body {
 /* Login Title */
 .login-title {
     position: relative;
-    left: 55px;
+    left: 30px;
     bottom: 32px;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 88px;
     line-height: 90px;
     color: #43476B;
 }
@@ -43,21 +43,36 @@ body {
     /* Sub-title */
 .sub-title {
     position: relative;
-    bottom: 60px;
-    right: 5px;
+    bottom: 80px;
+    right: 4px;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 44px;
+    line-height: 20px;
     /* identical to box height */
     text-align: center;
     color: #43476B;
 }
 
+    /*Login-Prompt*/
+.login-prompt {
+    position: relative;
+    bottom: 80px;
+    left: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    /* identical to box height */
+    text-align: center;
+    color: #43476B;
+    text-decoration: underline;
+}
+
 /* Username */
 .username {
     position: relative;
-    left: 32px; 
+    left: 32px;
+    bottom: 70px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -65,12 +80,11 @@ body {
     color: #43476B;
 }
 
-
-/* Password */
-.password {
+    /* Password */
+    .password {
     position: relative;
-    top: 32px;
     left: 32px;
+    bottom: 50px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -83,6 +97,7 @@ body {
     position: relative;
     right: 32px;
     left: 16px;
+    bottom: 70px;
     width: 25rem;
     height: 57px;
     background-color: rgba(223, 223, 238, 0.42);
@@ -96,7 +111,7 @@ body {
 
 .textfield2 {
     position: relative;
-    top: 32px;
+    bottom: 50px;
     right: 32px;
     left: 16px;
     width: 25rem;
@@ -130,7 +145,7 @@ body {
 /* Sign-In Container */
 .sign-in-container {
     position: relative;
-    top: 60px;
+    bottom: 22px;
     right: 32px;
     left: 60px;
     width: 309px;
@@ -140,16 +155,13 @@ body {
     outline-width: 0;
 }
 
-.sign-in-container {
-    position: relative;
-    top: 60px;
-    right: 32px;
-    left: 60px;
-    width: 309px;
-    height: 56px;
-    background: rgba(223, 223, 238, 0.75);
-    border-radius: 100px;
-    outline-width: 0;
+/*Password Reset Text*/
+.password-reset {
+    position: absolute;
+    top: 570px;
+    left: 105px;
+    font-size: 16px;
+    /* color: #43476B; */
 }
 
 #btn:active {
