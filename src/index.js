@@ -3,35 +3,84 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker'; 
 
-const loginContainer = (
 
-    <div className="login-container">
 
-        <h1 className="login-title"> Moon-Lite</h1>
+const loginScreen = (
 
-        <h2 className="sub-title"> Optimized Sleep Tracking </h2>
+        <div className="login-container">
 
-        <h3 className="login-prompt"> Please Login To Continue </h3> 
+            <h1
+                className="login-title">
+                Moon-Lite
+            </h1>
 
-        <label for="username" className="username"> Username </label>
 
-        <input type="text" id="uNameText" className="textfield1" placeholder="Input Username Here" />
+            <h2
+                className="sub-title">
+                Optimized Sleep Tracking
+            </h2>
 
-        <label for="password" className="password" placeholder="Password" > Password </label>
 
-        <input type="text" id="pswdText" className="textfield2" placeholder="Input Password Here" />
+            <h3
+                className="login-prompt">
+                Please Login To Continue
+            </h3>
 
-        <button id="btn" className="sign-in-container sign-in-text">Sign In </button>
 
-        <a id="passwordReset" className="password-reset" href="#"> Forgot Your Password? Click Here </a>
+            <label
+                for="username"
+                className="username">
+                Username
+            </label>
 
-    </div>
-);
+
+            <input
+                type="text"
+                id="uNameText"
+                className="textfield1"
+                placeholder="Input Username Here"
+            />
+
+
+            <label
+                for="password"
+                className="password"
+                placeholder="Password" >
+                Password
+            </label>
+
+
+            <input
+                type="text"
+                id="pswdText"
+                className="textfield2"
+                placeholder="Input Password Here"
+
+            />
+
+
+            <button
+                type="button"
+                id="btn"
+                className="sign-in-container sign-in-text">
+                Sign In
+            </button>
+
+
+            <a
+                id="passwordReset"
+                className="password-reset"
+                href="#">
+                Forgot Your Password? Click Here
+             </a>
+
+        </div>
+    );
 
 
 
 ReactDOM.render(
-    loginContainer,
+    loginScreen,
     document.getElementById('root')
 );
 
