@@ -5,76 +5,81 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-const loginScreen = (
+    function loginAlert() {
+        alert('Login Accepted! Tracking Sleep Now.');
+    }
 
-        <div className="login-container">
+    const loginScreen = (
 
-            <h1
-                className="login-title">
-                Moon-Lite
+    <div className="login-container">
+
+        <h1
+            className="login-title">
+            Moon-Lite
             </h1>
 
 
-            <h2
-                className="sub-title">
-                Optimized Sleep Tracking
+        <h2
+            className="sub-title">
+            Optimized Sleep Tracking
             </h2>
 
 
-            <h3
-                className="login-prompt">
-                Please Login To Continue
+        <h3
+            className="login-prompt">
+            Please Login To Continue
             </h3>
 
 
-            <label
-                for="username"
-                className="username">
-                Username
-            </label>
+        <label
+            for="username"
+            className="username">
+            Username
+        </label>
 
 
-            <input
-                type="text"
-                id="uNameText"
-                className="textfield1"
-                placeholder="Input Username Here"
-            />
+        <input
+            type="text"
+            id="uNameText"
+            className="textfield1"
+            placeholder="Input Username Here"
+        />
 
 
-            <label
-                for="password"
-                className="password"
-                placeholder="Password" >
-                Password
-            </label>
+        <label
+            for="password"
+            className="password"
+            placeholder="Password" >
+            Password
+        </label>
 
 
-            <input
-                type="text"
-                id="pswdText"
-                className="textfield2"
-                placeholder="Input Password Here"
+        <input
+            type="text"
+            id="pswdText"
+            className="textfield2"
+            placeholder="Input Password Here"
 
-            />
+        />
 
 
-            <button
+        <button
                 type="button"
                 id="btn"
-                className="sign-in-container sign-in-text">
-                Sign In
-            </button>
+                className="sign-in-container sign-in-text"
+                onClick={loginAlert}>
+            Sign In
+        </button>
 
 
-            <a
-                id="passwordReset"
-                className="password-reset"
-                href="#">
-                Forgot Your Password? Click Here
-             </a>
+        <a
+            id="passwordReset"
+            className="password-reset"
+            href="#">
+            Forgot Your Password? Click Here
+        </a>
 
-        </div>
+    </div>
     );
 
 
