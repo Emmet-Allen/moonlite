@@ -55,7 +55,7 @@ import * as serviceWorker from './serviceWorker';
 
 
         <input
-            type="text"
+            type="password"
             id="pswdText"
             className="textfield2"
             placeholder="Input Password Here"
