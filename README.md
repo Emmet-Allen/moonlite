@@ -1,4 +1,4 @@
-# Moonlite: Sleep Tracker Login Scren (Concept)
+# Moonlite: Sleep Tracker Login Screen (Concept)
 
 This project was created with React as a framework, and using Figma for interface design.
 I was curious on how to use Figma to better aid in Front-End workflow, so this is the product of that curiousity. 
